@@ -1,0 +1,13 @@
+clicky-original
+packages/qa
+
+# Agent-generated files (created during task execution)
+ai/
+docs/research/
+docs/xiaodian-*.md
+packages/client/src/design-system/
+packages/client/src/design/
+packages/server/research/
+research/
+clicky-original/
+clicky-china-research/

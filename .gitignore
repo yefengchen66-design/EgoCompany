@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+data/
+
+# Environment
+.env
+.env.local
+.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Vite
+.vite/
+
+# Lock files (pnpm only)
+package-lock.json
+yarn.lock
+
+# Agent-generated files (created during task execution)
+ai/
+docs/
+infra/
+research/
+clicky-original/
+clicky-china-research/
+packages/client/src/design/
+packages/client/src/design-system/
+packages/server/research/
+packages/server/src/db/migrations/
+packages/server/src/db/ER_DIAGRAM.md
+packages/server/src/db/INDEX_STRATEGY.md
+packages/server/src/db/PGBOUNCER_CONFIG.md
+packages/server/src/db/knexfile.ts
+packages/server/src/db/clicky-schema.sql
+packages/server/src/db/queries/subscriptions.ts
+packages/server/src/db/queries/clicky-quota.ts
+packages/server/src/db/queries/orders.ts
+packages/server/src/db/queries/plans.ts
+packages/server/src/db/queries/refresh-tokens.ts
+packages/server/src/db/queries/sms-codes.ts
+packages/server/src/db/queries/usage-records.ts
+packages/server/src/db/queries/users.ts
+packages/server/src/services/auth-service.ts
+packages/server/src/services/mentile-proxy.ts
+packages/server/src/services/payment-service.ts
+packages/server/src/services/subscription-service.ts
+packages/shared/src/types/mentile-ai.ts
+packages/shared/src/types/payment.ts
+packages/shared/src/types/subscription.ts
+packages/shared/src/types/user.ts
+packages/shared/src/types/xiaodian-api.ts
+packages/qa/
+*.hcl
+.gitleaks.toml
+.pre-commit-config.yaml
+.gstack/
+packages/server/db/
+packages/server/src/__tests__/asr-service.test.ts
+packages/server/src/routes/voice.ts
+packages/server/src/services/asr-service.ts
